@@ -22,7 +22,7 @@ By combining structured SQL auditing, Python hypothesis testing, custom feature 
 [ 2. Python Data Processing & Statistical EDA ]
   ├── Detailed Data Cleaning & Null Handling
   ├── Exploratory Data Analysis (Univariate, Bivariate, Multivariate)
-  ├── Statistical Validation (T-Tests, ANOVA, Hypothesis Testing)
+  ├── Statistical Validation (T-Tests, ANOVA, Hypothesis Testing, Chi-Square Test)
   └── Feature Engineering (Expanded dataset from 20 to 39 enriched variables)
                           │
                           ▼
@@ -70,7 +70,7 @@ Using Jupyter Notebooks, the dataset underwent statistical examination and featu
 The engineered dataset was loaded into Power BI to build an executive reporting system:
 
 * **Star Schema Architecture:** Formed a clean dimensional model separating fact tables (Claims) from dimension tables (Providers, Patients, Payers, Codes).
-* **25+ DAX Measures:** Engineered robust DAX calculations for dynamic fraud rates, total revenue at fraud risk, claim collection percentages, and period-over-period trend analysis.
+* **25+ DAX Measures:** Engineered DAX calculations for dynamic fraud rates, total revenue at fraud risk, claim collection percentages, and period-over-period trend analysis.
 * **4 Interactive Dashboards:**
 1. **Financial Overview:** Highlights top-line revenue at risk, claim volume counts, and high-level fraud percentages.
 
@@ -88,7 +88,7 @@ The engineered dataset was loaded into Power BI to build an executive reporting 
 
 ## Key Business Insights
 
-* **Financial Exposure:** Identified over **$125,000+ in Revenue at Fraud Risk** across 829 flagged audit cases.
+* **Financial Exposure:** Identified over **$800,000+ in Revenue at Fraud Risk** across 829 flagged audit cases.
 * **Submission Lag Indicator:** Claims submitted more than 30 days after treatment showed a significantly higher correlation with billing anomalies.
 
 
